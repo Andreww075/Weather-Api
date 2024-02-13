@@ -1,0 +1,59 @@
+{
+	"header": [
+		{
+			"id": 1,
+			"todo": "ToDo List"
+		}
+	],
+
+	"aside": [
+		{
+			"id": 2,
+			"titleFolder": "Folder",
+			"folderAll": "All",
+			"folderImportant": "Important",
+			"folderCompleted": "Completed",
+			"folderPending": "Pending",
+			"titleProjects": "Projects"
+		},
+		{
+			"id": 3,
+			"btnNew": "New",
+			"btnNewProject": "Project"
+		},
+		{
+			"id": 4,
+			"firstModalOneElement": "Write the folder's name",
+			"btnFirstModal": "Save"
+		}
+	],
+
+	"center": [
+		{
+			"id": 5,
+			"firstCard": "Welcome",
+			"toWork": "To Work"
+		}, 
+		{
+			"id": 6,
+			"btnNewTask": "New",
+			"btnTask": "Task"
+		},
+		{
+			"id": 7,
+			"firstElementModal": "Write the task's name",
+			"secondElementModal": "Write the description's name",
+			"thirdElementModal": "Choose the limit date",
+			"btnSecondModal": "Save"
+		}
+	],
+
+	"footer": [
+		{
+			"id": 8,
+			"copyright": "Copyright",
+			"copyrightSymbol": "©",
+			"Nvandres075": "Nvandres075"
+		}
+	]
+}

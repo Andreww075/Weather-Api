@@ -1,0 +1,183 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24; }
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2021/06/10/19/03/sea-6326812_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 6rem 5rem 0; }
+
+.content-first-section {
+  align-items: start;
+  display: flex;
+  justify-content: space-between;
+  cursor: default;
+  width: 100%; }
+  .content-first-section > .country-access {
+    font-family: "Young Serif", serif; }
+    .content-first-section > .country-access > #form-search-city {
+      align-items: center;
+      display: flex;
+      justify-content: center; }
+      .content-first-section > .country-access > #form-search-city > input[type=text] {
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-bottom: 2px solid #DDD;
+        font-family: "Josefin Sans", sans-serif;
+        padding: .5rem .8rem .1rem;
+        width: 20vw;
+        transition: all .2s ease-in-out; }
+        .content-first-section > .country-access > #form-search-city > input[type=text]:hover {
+          transform: scale(1.05); }
+        .content-first-section > .country-access > #form-search-city > input[type=text]:focus {
+          outline: none; }
+      .content-first-section > .country-access > #form-search-city > button {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        border: transparent;
+        transition: all .2s ease-in-out; }
+        .content-first-section > .country-access > #form-search-city > button:hover {
+          transform: scale(1.08); }
+    .content-first-section > .country-access > h3 {
+      margin: .8rem 0 0;
+      font-size: 1.2rem;
+      letter-spacing: .2rem;
+      transition: all .6s ease-in-out; }
+      .content-first-section > .country-access > h3:hover {
+        transform: scale(1.05); }
+    .content-first-section > .country-access > h2 {
+      margin: .5rem 0;
+      font-size: 2.2rem;
+      letter-spacing: -.1rem;
+      transition: all .6s ease-in-out; }
+      .content-first-section > .country-access > h2:hover {
+        transform: scale(1.05); }
+    .content-first-section > .country-access > p {
+      font-size: .8rem;
+      margin: 0;
+      transition: all .6s ease-in-out; }
+      .content-first-section > .country-access > p:hover {
+        transform: scale(1.05); }
+    .content-first-section > .country-access > button {
+      background-color: transparent;
+      border: 1px solid transparent;
+      font-family: "Pixelify Sans", sans-serif;
+      transition: all .2s ease-in-out; }
+      .content-first-section > .country-access > button:hover {
+        transform: scale(1.05); }
+      .content-first-section > .country-access > button:active {
+        transform: scale(1.02); }
+    .content-first-section > .country-access > div > span {
+      -webkit-animation-name: img;
+      -webkit-animation-duration: .5s;
+      animation-name: img;
+      animation-duration: .5s;
+      font-size: 6rem;
+      margin: .2rem 0 0 1rem;
+      transition: all .4s ease-in-out; }
+      .content-first-section > .country-access > div > span:hover {
+        transform: rotate(40deg) scale(1.15); }
+      .content-first-section > .country-access > div > span:active {
+        transform: rotate(-40deg) scale(1.2); }
+  .content-first-section .country-data-first > .content-data {
+    align-items: center;
+    display: flex;
+    justify-content: start; }
+    .content-first-section .country-data-first > .content-data > span {
+      -webkit-animation-name: img;
+      -webkit-animation-duration: .5s;
+      animation-name: img;
+      animation-duration: .5s;
+      text-shadow: 0 0 5px black;
+      filter: none;
+      font-size: 3rem;
+      margin-right: 1rem;
+      transition: all .4s ease-in-out; }
+      .content-first-section .country-data-first > .content-data > span:hover {
+        transform: rotate(40deg) scale(1.15); }
+      .content-first-section .country-data-first > .content-data > span:active {
+        transform: rotate(-40deg) scale(1.2); }
+    .content-first-section .country-data-first > .content-data > .content-text-temperature {
+      font-family: "Josefin Sans", sans-serif; }
+      .content-first-section .country-data-first > .content-data > .content-text-temperature > p {
+        filter: none;
+        font-size: 1rem;
+        margin: 0;
+        transition: all .6s ease-in-out; }
+        .content-first-section .country-data-first > .content-data > .content-text-temperature > p:hover {
+          transform: scale(1.05); }
+      .content-first-section .country-data-first > .content-data > .content-text-temperature > h5 {
+        font-size: 1.5rem;
+        margin: 0;
+        transition: all .6s ease-in-out; }
+        .content-first-section .country-data-first > .content-data > .content-text-temperature > h5:hover {
+          transform: scale(1.05); }
+
+.filter-blur {
+  background-color: #CCC;
+  bottom: 10rem;
+  -webkit-filter: blur(20px);
+  width: 13.5rem;
+  height: 3.7rem;
+  position: relative;
+  right: .2rem;
+  transform: translateY(6.5rem);
+  z-index: -1; }
+
+@media (max-width: 660px) {
+  body {
+    background-size: 2000px;
+    height: 1000px; }
+
+  .content-first-section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .content-first-section > .country-access {
+      margin: 0 0 8rem; }
+
+  #form-search-city {
+    align-items: center;
+    display: flex;
+    justify-content: center; }
+    #form-search-city > input[type=text] {
+      width: 60vw; }
+
+  .filter-blur {
+    background-color: #CCC;
+    bottom: 10rem;
+    -webkit-filter: blur(20px);
+    width: 13.5rem;
+    height: 3.7rem;
+    position: relative;
+    right: .2rem;
+    transform: translateY(6.5rem);
+    z-index: -1; }
+
+  .filter-blur-first {
+    background-color: #CCC;
+    bottom: 52rem;
+    -webkit-filter: blur(50px);
+    left: 4rem;
+    width: 17rem;
+    height: 23rem;
+    position: relative;
+    z-index: -1; } }
+@keyframes img {
+  from {
+    transform: rotate(180deg) scale(1.15); }
+  to {
+    transform: rotate(360deg) scale(1.2); } }
+@keyframes centerAnimation {
+  from {
+    transform: translateX(500px); }
+  to {
+    transform: translateX(0); } }
+
+/*# sourceMappingURL=style.css.map */
